@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Post No Bills Jaffna';
+  src: url('/fonts/PostNoBillsJaffna-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,4 +18,10 @@
 body {
   width: 100vw;
   overflow-x: hidden;
+}
+
+.cafea-font {
+  font-family: 'Post No Bills Jaffna', sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
 }

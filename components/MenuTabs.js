@@ -1,6 +1,4 @@
-// components/MenuTabs.js
-
-"use client"; // This line makes the component a client component
+"use client";
 
 import React from 'react';
 
